@@ -20,7 +20,7 @@ for (var i = 0; i < buttons.length; i++) {
             operator = value;
             operand1 = parseFloat(text);
             display.textContent = "";
-        } else if (value == "ac") {
+        } else if (value == "AC") {
             display.textContent = "";
         } else if (value == "sign") {
             operand1 = parseFloat(text);
